@@ -102,7 +102,7 @@ function App() {
 
   return (
     <>
-<Router>
+<Router basename='/Text-Assist'>
       
 
         
