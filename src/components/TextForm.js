@@ -22,7 +22,7 @@ const handleExtraSpaces = () => {
 
   const handleDetect = async () => {
     try {
-      const response = await fetch('/detect', {
+      const response = await fetch('http://vaibhav337.pythonanywhere.com/detect', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ const handleExtraSpaces = () => {
     
   
     try {
-      const response = await fetch('/lang', {
+      const response = await fetch('http://vaibhav337.pythonanywhere.com/lang', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
